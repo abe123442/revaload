@@ -1,8 +1,7 @@
-# blank
+# Setup
+- Spin up the docker container with `docker compose up -d`
+- Start the nextjs app using `pnpm build && pnpm start`, or `pnpm dev` for a development environment
 
-blank
-
-## Attributes
-
-- **Database**: mongodb
-- **Storage Adapter**: localDisk
+# Discussion
+- We will be working with revalidating changes to the `Books` collection
+- Go to /admin to initialise default user on CMS, and manage books via CRUD operations
