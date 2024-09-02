@@ -12,7 +12,8 @@ const getBooks = unstable_cache(
 
     return books
   },
-  ['books']
+  [],
+  { tags: ['books'] }
 )
 
 const Page = async () => {
