@@ -1,4 +1,5 @@
 # Setup
+- Rename .env.example to .env
 - Spin up the docker container with `docker compose up -d`
 - Start the nextjs app using `pnpm build && pnpm start`, or `pnpm dev` for a development environment
 
